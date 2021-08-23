@@ -1,0 +1,12 @@
+body {
+  background-color: #333;
+}
+
+.header a {
+  text-decoration: none;
+  color: #f2f
+}
+
+.header {
+  background-color: aquamarine;
+}
