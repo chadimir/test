@@ -9,4 +9,13 @@ body {
 
 .header {
   background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
 }
