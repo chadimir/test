@@ -11,6 +11,7 @@
   font-variant: small-caps;
   text-transform: lowercase;
   text-align: center;
+  margin: auto;
 }
 
 .table1 td {
