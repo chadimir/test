@@ -3,6 +3,11 @@
   width: 100%;
 }
 
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
 .table1 {
   border: 2px solid black;
   border-radius: 5px;
