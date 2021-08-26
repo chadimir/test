@@ -1,39 +1,47 @@
-body {
-  background-color: #333;
-}
-
-.header a {
-  text-decoration: none;
-  color: #f2f
-}
-
-.header {
-  background-color: aquamarine;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.header ul {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  gap: 10px; 
-}
-
 .maincontainer {
   display: flex;
-  flex-direction: column;
-}
-
-.navmain {
-  display: flex;
-  flex-direction: row;
   width: 100%;
 }
 
-.navmain a:nth-child(2) {
+.table1 {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: roboto, sans-serif;
+  font-weight: 100;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.table1 td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.input {
   display: flex;
-  position: relative;
-  
+  flex-direction: column;
+  justify-content: center;
+  font-family: roboto, sans-serif;
+  font-weight: 100;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.input input {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 5px;
+  text-align: center;
+  outline: none;
+  font-family: roboto, sans-serif;
+  font-weight: 600;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 15px;
+}
+
+.input input:nth-child(1) {
+  border: none;
 }
