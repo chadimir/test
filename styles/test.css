@@ -7,9 +7,10 @@
   border: 2px solid black;
   border-radius: 5px;
   font-family: roboto, sans-serif;
-  font-weight: 100;
+  font-weight: 600;
   font-variant: small-caps;
   text-transform: lowercase;
+  text-align: center;
 }
 
 .table1 td {
@@ -45,3 +46,8 @@
 .input input:nth-child(1) {
   border: none;
 }
+
+/* #ftwo {
+  background-color: #333;
+  color: white;
+} */
